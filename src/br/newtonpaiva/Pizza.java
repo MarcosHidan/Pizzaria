@@ -1,5 +1,4 @@
 package br.newtonpaiva;
-
 public class Pizza {
     String nome;
     Double valor;

@@ -11,7 +11,7 @@ public class Main {
             String preco = JOptionPane.showInputDialog("Digite um valor");
             Double preco01 = Double.parseDouble(preco);
 
-            String pergunta = JOptionPane.showInputDialog("Artezanal? " + "SIM/NÂO");
+            String pergunta = JOptionPane.showInputDialog("Artezanal? " + "SIM/NÃO");
             if (pergunta.equals("sim")) {
                 Hamburguer hb = new Hamburguer();
                 System.out.println(nome + "  " + "O seu pedido ficou no valor de: " + hb.calcular(preco01) + " Reais");
@@ -22,7 +22,7 @@ public class Main {
             String preco = JOptionPane.showInputDialog("Digite um valor");
             Double preco01 = Double.parseDouble(preco);
 
-            String pergunta = JOptionPane.showInputDialog("Deseja borda? " + "SIM/NÂO");
+            String pergunta = JOptionPane.showInputDialog("Deseja borda? " + "SIM/NÃO");
             if (pergunta.equals("sim")) {
                 Pizza p = new Pizza();
                 System.out.println(nome + "  " + "O seu pedido ficou no valor de: " + p.calcular(preco01) + " Reais");
